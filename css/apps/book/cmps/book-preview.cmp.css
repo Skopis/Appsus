@@ -1,0 +1,28 @@
+
+/* PREVIEW */
+
+.book-preview {
+    text-transform: capitalize;
+}
+
+.book-preview-container {
+    background-color:rgb(162, 235, 192, 0.3);
+    width: 150px;
+    min-height: 270px;
+    max-height: fit-content;
+    display: flex;
+    font-size: 0.9rem;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+
+.book-preview-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.459) 0px 5px 15px;
+}
+
+.book-preview-container img {
+    border-radius: 5px;
+    width: 100%;
+}

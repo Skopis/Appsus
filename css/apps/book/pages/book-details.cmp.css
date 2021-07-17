@@ -1,0 +1,82 @@
+.book-details img {
+    max-height: 300px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.book-details .back-btn {
+    background-color: #2ECC71;
+    color: white;
+    font-size: 30px;
+    float:right;
+    width: 40px;
+}
+
+.book-details h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.book-details-container>* {
+    margin-bottom: 10px;
+}
+
+.book-details {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.book-details-container {
+    max-width: 300px;
+    margin-right: 1rem;
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

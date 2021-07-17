@@ -1,0 +1,78 @@
+.about-page {
+    width: 100%;
+    background-color: #ffffff5e;
+    height: 80vh;
+    text-align: center;
+    user-select: none;
+}
+
+.about-page h3 {
+    color: rgb(206, 167, 121);
+}
+
+.about-page .sentance {
+    color: rgb(206, 167, 121);
+}
+
+.about-txt {
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* width: 500px; */
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.about-page h1 {
+    text-align: center;
+    font-size: 40px;
+    /* font-family: monospace; */
+}
+
+.about-page h1 span:hover {
+    color: #ffffff;
+}
+
+.about-page .profile-img {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: 0.9s;
+}
+
+.about-page img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-page .logo-icon {
+    margin-top: 2rem;
+    height: 160px;
+    bottom: 107px;
+}
+
+.logo-txt {
+    margin-left: 10px;
+    width: 50%;
+    font-family: monospace;
+    margin-top: 10px;
+    color: black;
+}
+
+.txt-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

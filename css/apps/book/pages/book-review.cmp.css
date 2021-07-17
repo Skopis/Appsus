@@ -1,0 +1,56 @@
+
+.book-review {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.book-review >* {   
+    margin: 0px 20px 0px 20px;
+}
+
+.book-review h1{
+    text-align: center;
+}
+
+.book-review h2{
+    text-align: left;
+}
+
+.book-review #full-name {
+    width: 200px;
+}
+
+.book-review form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.book-review form label{
+    display: flex;
+    align-items: flex-start;
+}
+
+.book-review button {
+    background-color: #2ECC71;
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+.star-list{
+    display: flex;
+    align-self: center;
+    margin-right: 0.5rem;
+    color: rgb(56, 56, 56);
+}
+
+.star:hover, .starred {
+    color: orange;
+}
+.star:hover, .selected {
+    color: orange;
+}

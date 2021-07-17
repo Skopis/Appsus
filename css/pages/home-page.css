@@ -1,0 +1,61 @@
+.home-page {
+    margin: 0;
+}
+
+.hero-inner-container {
+    padding: 1rem;
+    font-size: 20px;
+    color: white;
+}
+
+.hero-inner-container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.home-page .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/background1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.home-page button {
+    padding: 0.5em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    background-color: #e2ba8a77;
+    width: 200px;
+    border: 3px solid #ffffffc4;
+    transition: .4s;
+    /* Text styles */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.home-page .hero button:hover {
+    border-radius: 0px;
+}
+
+.home-page h3 span {
+    color: #e2c39e
+}
+
+.home-page h3 span:hover {
+    color: #ffe868;
+    text-decoration: underline;
+    
+}

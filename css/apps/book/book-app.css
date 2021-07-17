@@ -1,0 +1,33 @@
+@import './cmps/book-filter.cmp.css';
+@import './cmps/book-list.cmp.css';
+@import './cmps/book-preview.cmp.css';
+@import '../book/pages/book-details.cmp.css';
+@import '../book/pages/book-review.cmp.css';
+@import '../book/pages/book-add.cmp.css';
+
+
+.book-app {
+    background-color: rgb(162, 235, 192);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: fit-content;
+}
+
+.book-inputs{
+    margin: 0.5rem auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+
+@media screen and (max-width: 450px){
+.book-inputs{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+}
+}

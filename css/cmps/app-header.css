@@ -1,0 +1,87 @@
+.header-container {
+    padding: 0.2rem 0;
+    width: 100%;
+    background-color: #ffffff5e;
+    border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.app-header {
+    display: flex;
+    margin: 0 auto;
+    background-color: #ffffff5e;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    user-select: none;
+    width: 90%;
+}
+
+.app-header .menu-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    vertical-align: middle;
+    align-self: center;
+}
+
+/* DROPDOWN */
+
+.dropdown-container img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding: 3px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.dropdown-container a img:hover {
+    background-color: rgba(143, 137, 128, 0.356);
+}
+
+.dropdown-container a {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+.close-dropdown {
+    display: none;
+}
+
+/* LOGO */
+
+.app-header .logo>* {
+    display: inline-block;
+}
+
+.app-header .logo h1 {
+    opacity: 0;
+}
+
+.app-header .logo>* {
+    transition: 0.5s;
+}
+
+.app-header .logo:hover>* {
+    opacity: 1;
+}
+
+.app-header .logo-icon {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 550px) {
+    .dropdown-container img {
+        margin: 0;
+        padding: 0;
+    }
+}
